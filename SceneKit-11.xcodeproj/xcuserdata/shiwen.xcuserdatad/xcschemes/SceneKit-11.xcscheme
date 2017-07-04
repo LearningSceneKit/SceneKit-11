@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "83BFECB81F0249960088B9E3"
+               BuildableName = "SceneKit-11.app"
+               BlueprintName = "SceneKit-11"
+               ReferencedContainer = "container:SceneKit-11.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "83BFECD11F0249960088B9E3"
+               BuildableName = "SceneKit-11Tests.xctest"
+               BlueprintName = "SceneKit-11Tests"
+               ReferencedContainer = "container:SceneKit-11.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "83BFECDC1F0249960088B9E3"
+               BuildableName = "SceneKit-11UITests.xctest"
+               BlueprintName = "SceneKit-11UITests"
+               ReferencedContainer = "container:SceneKit-11.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "83BFECB81F0249960088B9E3"
+            BuildableName = "SceneKit-11.app"
+            BlueprintName = "SceneKit-11"
+            ReferencedContainer = "container:SceneKit-11.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "83BFECB81F0249960088B9E3"
+            BuildableName = "SceneKit-11.app"
+            BlueprintName = "SceneKit-11"
+            ReferencedContainer = "container:SceneKit-11.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "83BFECB81F0249960088B9E3"
+            BuildableName = "SceneKit-11.app"
+            BlueprintName = "SceneKit-11"
+            ReferencedContainer = "container:SceneKit-11.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
